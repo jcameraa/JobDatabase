@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Dropdown, Container, Row, Col } from "react-bootstrap";
 import SearchBar from './SearchBar.js';
 import Skills from './SideSkills.js';
+import Card from 'react-bootstrap/Card';
 import JobListings from './JobListings';
 import '../StyleSheets/skillsInto.css';
 import PlaceHolderGraph from '../Images/Placeolder_Graph.jpeg'
@@ -43,12 +44,19 @@ class SkillsInfo extends Component{
                                 <Skills />
                             </div> 
                         </Col>
+                        <Col xs={12} sm={true} xl={6}>
+                            <div className="spacer" />
+                            <Card style={{ width: '90%', paddingBottom: '15px'  }}>
+                                <Card.Img variant="top" src={PlaceHolderGraph} />
+                                <Card.Body>
+                                    <Card.Title>TThis is data</Card.Title>
+                                    <Card.Text>
+                                        Explination of Data 
+                                         </Card.Text>
+                                </Card.Body>
+                            </Card>
 
-
-                        <Col xs={12} sm={true} xl={3}>
-                            <Row>                   
-                            <img src={PlaceHolderGraph}></img>
-                            </Row>
+                        <Col xs={12} sm={true} xl={3}></Col>
                             <Row>
                                 <div>
                                     <JobListings />

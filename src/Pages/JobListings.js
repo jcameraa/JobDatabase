@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import SearchBar from './SearchBar.js';
 import { Dropdown, Container, Row, Col } from "react-bootstrap";
 import Card from 'react-bootstrap/Card'
+import "../StyleSheets/joblisting.css"
 
 
 
@@ -9,7 +10,7 @@ const JobListings = () => {
     return(
         <Card style={{ width: '50rem' }}>
              <Row>
-                  <Dropdown>
+                  <Dropdown class = "dropdown-align-right">
                        <Dropdown.Toggle variant="success" id="dropdown-basic">
                        General Desired Skills: 
                       </Dropdown.Toggle>
