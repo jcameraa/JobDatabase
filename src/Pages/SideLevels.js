@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card'
 const SideLevels = () => {
     return (
         <div>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '15.25rem' }}>
                 <Card.Body>
                     <Card.Text>
                         <Link to={`/entry`}>Entry</Link>

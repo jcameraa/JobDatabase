@@ -7,6 +7,7 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Pages/Home';
 import SkillsInfo from './Pages/SkillsInfo';
+import Graphs from './Pages/Graphs';
 
 
 
@@ -18,6 +19,7 @@ class App extends Component {
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/skillsinfo' component={SkillsInfo} />
+            <Route exact path='/graphs' component={Graphs} />
           </Switch>
         </div>
       </Router>
