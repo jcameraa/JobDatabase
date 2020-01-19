@@ -51,7 +51,7 @@ class SkillsInfo extends Component{
                                 <Card.Body>
                                     <Card.Title>TThis is data</Card.Title>
                                     <Card.Text>
-                                        Explination of Data 
+                                        Explination of Data B:AHHHHH 
                                          </Card.Text>
                                 </Card.Body>
                             </Card>
