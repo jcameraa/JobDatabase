@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card'
 const SideBar = () => {
     return (
         <div>
-            <Card style={{ width: '15.25rem' }}>
+            <Card style={{ width: '18rem' }}>
                 <Card.Body>
                     <Card.Text>
                         <Link to={`/engineering`}>Engineering</Link>

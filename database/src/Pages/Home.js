@@ -18,7 +18,7 @@ class Home extends Component {
                 <Container fluid="true">
                     <Row>
                         <Col>
-                            <div className="float-right" style={{ paddingTop: '15px'}}>
+                            <div className="float-right" style={{ paddingTop: '15px' }}>
                                 <SearchBar />
                             </div>
                         </Col>
@@ -49,7 +49,7 @@ class Home extends Component {
                                 <div className="bottom-right" style={{ paddingTop: '30px', paddingBottom: '30px' }}>
 
                                     <a href="/Contact">
-                                        <Card style={{ width: '15.25rem' }}>
+                                        <Card style={{ width: '18rem' }}>
                                             <Card.Body>
                                                 <Card.Text className="text-center">
                                                     Don't see your company here? <br /> Contact us!

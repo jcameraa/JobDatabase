@@ -9,7 +9,6 @@ import Home from './Pages/Home';
 import Graphs from './Pages/Graphs';
 
 
-
 class App extends Component {
   render() {
     return (
